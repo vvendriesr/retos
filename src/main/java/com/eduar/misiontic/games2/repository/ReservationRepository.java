@@ -36,7 +36,7 @@ public class ReservationRepository {
 
     public List<Reservation> getReservationsByDescription(String description){
 
-        return reservationCrudRepository.findAllByDescription(description);
+        return reservationCrudRepository.findAllByStatus(description);
 
     }
 
