@@ -2,20 +2,20 @@ package com.eduar.misiontic.games2.entities.custom;
 
 public class StatusAmount {
 
-    private int complete;
+    private int completed;
     private int cancelled;
 
     public StatusAmount(int complete, int cancelled) {
-        this.complete = complete;
+        this.completed = complete;
         this.cancelled = cancelled;
     }
 
-    public int getComplete() {
-        return complete;
+    public int getCompleted() {
+        return completed;
     }
 
-    public void setComplete(int complete) {
-        this.complete = complete;
+    public void setCompleted(int completed) {
+        this.completed = completed;
     }
 
     public int getCancelled() {
