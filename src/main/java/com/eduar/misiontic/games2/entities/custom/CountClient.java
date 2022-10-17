@@ -4,19 +4,19 @@ import com.eduar.misiontic.games2.entities.Client;
 
 public class CountClient {
 
-    private Integer total;
+    private long total;
     private Client client;
 
-    public CountClient(Integer total, Client client) {
+    public CountClient(long total, Client client) {
         this.total = total;
         this.client = client;
     }
 
-    public Integer getTotal() {
+    public long getTotal() {
         return total;
     }
 
-    public void setTotal(Integer total) {
+    public void setTotal(long total) {
         this.total = total;
     }
 
